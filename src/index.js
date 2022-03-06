@@ -8,7 +8,6 @@ import Home from './Pages/Home/home';
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    
   </React.StrictMode>,
   document.getElementById('root')
 );
