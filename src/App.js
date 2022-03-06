@@ -8,8 +8,8 @@ import{
 
 import Home from "./Pages/Home/home";
 import AboutUs from "./Pages/About Us/aboutus";
-import OurProducts from "./Pages/Our Products/ourproducts";
-import OurCustomers from "./Pages/Our Customers/ourcustomers";
+import ProductsCust from "./Pages/Product-Customers/productsCust";
+
 import Services from "./Pages/Services/services";
 import ContactUs from "./Pages/Contact Us/contactus";
 import Careers from "./Pages/Careers/careers";
@@ -27,12 +27,8 @@ function App() {
        <AboutUs />
      </Route>
 
-     <Route path='/OurProducts'>
-       <OurProducts />
-     </Route>
-
-     <Route path='/OurCustomers'>
-       <OurCustomers />
+     <Route path='/Customers-products'>
+       <ProductsCust />
      </Route>
 
      <Route path='/Services'>
