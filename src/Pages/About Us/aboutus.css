@@ -26,6 +26,26 @@
     font-weight: 500;
     line-height: 28px;
 }
+.content1>img{
+    width: 50px;
+    height: 50px;
+}
+.icons
+.idea{
+    position: relative;
+    top: 80px;
+    left: 50px;
+}
+.user{
+    position: relative;
+    top: 80px;
+    left: 150px;
+}
+.technical{
+    position: relative;
+    top: 80px;
+    left: 250px;
+}
 .A-section2>h1{
     font-size: 36px;
     font-weight: 700;
@@ -99,5 +119,5 @@
 }
 .A-section5{
     position: relative;
-    top: 250px;
+    top: 0px;
 }
