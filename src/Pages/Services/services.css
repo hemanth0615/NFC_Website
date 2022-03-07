@@ -1,0 +1,19 @@
+.navbar-logo{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 100px;
+    height: 115px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    width: 540px;
+    height: 25px;
+  }
+  .nav-item {
+    height: 25px;
+    width: 80px;
+  }
