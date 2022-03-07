@@ -1,0 +1,258 @@
+.body1{
+    position: absolute;
+    width: 100%;
+    height: 730px;
+    left: 0px;
+    top: 110px;
+    background: #C1C1C1;
+}
+.body1_text{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 50.09%;
+    bottom: 78.47%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.body2{
+    width: 100%;
+    height: 1737px;
+    background: #FFFFFF;
+}
+.body2_text1{
+    position: absolute;
+    width: 416px;
+    height: 54px;
+    left: 23px;
+    top: 967px;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 27px;
+    /* or 75% */
+
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+}
+.body2_text2{
+    position: absolute;
+width: 553px;
+height: 54px;
+left: 23px;
+top: 1056px;
+
+font-family: Mariupol;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* or 150% */
+
+letter-spacing: -0.02em;
+
+color: rgba(33, 33, 33, 0.8);
+}
+.contactus_conversation{
+    
+position: absolute;
+width: 416px;
+height: 44px;
+left: 23px;
+top: 1173px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+color: #000000;
+
+}
+.body2_box{
+    position: absolute;
+    width: 745px;
+    height: 791px;
+    left: 611px;
+    top: 946px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.body2_box ::placeholder{ 
+    position: absolute;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    color: #FFFFFF;
+}
+.body2_box button p{
+    position: relative;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+.contactus_fname{
+    position: absolute;
+    width: 310.33px;
+    height: 8%;
+    left: 5%;
+    top: 7%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_lname{
+    position: absolute;
+    width: 315.33px;
+    height: 8%;
+    left: 49%;
+    top: 7%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+.contactus_phone{
+    position: absolute;
+    width: 642.78px;
+    height: 8%;
+    left: 5%;
+    top: 20%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_email{
+    position: absolute;
+    width: 642.78px;
+    height: 8%;
+    left: 5%;
+    top: 32%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.contactus_help{
+    position: absolute;
+    width: 642.78px;
+    height: 321px;
+    left: 5%;
+    top: 44%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_send_button{
+    position: absolute;
+    left: 40%;
+    right: 40%;
+    bottom: 2%;
+    background: #4E4E4E;
+    border-radius: 10px;
+}
+.contactus_ourlocation_text{
+position: absolute;
+width: 249px;
+height: 48px;
+left: 0px;
+top: 1823px;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+.address_boxes{
+
+}
+.contactus_usa_box{
+    position: absolute;
+    width: 25%;
+    left: 20%;
+    right: 70%;
+    top: 280%;
+    height: 40%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.contactus_india_box{
+    position: absolute;
+    width: 25%;
+    height: 40%;
+    left: 50%;
+    right: 70%;
+    top: 300%;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.usa_text{
+    position: absolute;
+left: 44.22%;
+right: 44.44%;
+top: 8.79%;
+bottom: 83.2%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.02em;
+
+color: #0073CB;
+}
+.contactus_address{
+    position: absolute;
+left: 6.67%;
+right: 6.89%;
+top: 23.77%;
+bottom: 53.75%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}

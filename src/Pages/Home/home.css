@@ -1,22 +1,967 @@
+/* Website */
+
+/* Nav Bar */
 /* logo */
-div{
-  background-color: black;
-  width: 100%;
-  height: 100%;
-}
-.hello{
-  position: absolute;
-  top: 10%;
-  color: black;
-}
 .logo {
   position: absolute;
   left: 4.44%;
   right: 89.72%;
   top: 0.31%;
   bottom: 98.03%;
-  background: url({Logo});
   border: 1px solid #000000;
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.nav_elements {
+  display: flex;
+  list-style-type: none;
+}
+.nav_aboutus {
+  position: absolute;
+  width: 80px;
+  height: 24px;
+  left: 841px;
+  top: 42px;
+}
+.nav_services {
+  position: absolute;
+  width: 74px;
+  height: 24px;
+  left: 964px;
+  top: 42px;
+}
+.nav_work {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 1081px;
+  top: 42px;
+}
+.nav_careers {
+  position: absolute;
+  width: 72px;
+  height: 24px;
+  left: 1169px;
+  top: 42px;
+}
+
+.nav_contactus {
+  position: absolute;
+  width: 98px;
+  height: 24px;
+  left: 1284px;
+  top: 42px;
+}
+
+/* Landing Page */
+
+/*About Us */
+.aboutus_page {
+  position: absolute;
+  width: 100%;
+  height: 430px;
+  left: 0px;
+  top: 919px;
+  background: #f3f5f8;
+}
+.aboutus_text {
+  position: absolute;
+  width: 79px;
+  height: 21px;
+  left: 69px;
+  top: 75px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #2972e0;
+}
+.aboutus_textdescription {
+  position: absolute;
+  width: 821px;
+  height: 185px;
+  left: 452px;
+  top: 66px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+/* Our Customers */
+.ourcustomers_page {
+  position: absolute;
+  width: 100%;
+  height: 946px;
+  left: 0px;
+  top: 1349px;
+  background: #f3f5f8;
+}
+.ourcustomers_text {
+  position: absolute;
+  width: 126px;
+  height: 21px;
+  left: 80px;
+  top: 151px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.02em;
+  color: #2972e0;
+}
+.ourcustomers_textdescription {
+  position: absolute;
+  width: 742px;
+  height: 111px;
+  left: 80px;
+  top: 249px;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.knowmore_button {
+  position: absolute;
+  width: 202px;
+  height: 70px;
+  left: 1055px;
+  top: 249px;
+}
+.customers {
+  position: absolute;
+  width: 100%;
+  height: 764px;
+  left: 0px;
+  top: 495px;
+  background: #f3f5f8;
+}
+.customers_box {
+  position: absolute;
+  width: 90%;
+  border-radius: 15px;
+  height: 350px;
+  left: 5%;
+  top: ;
+  background-color: white;
+}
+.customer_image {
+}
+.customer_description {
+  position: absolute;
+  left: 11%;
+  right: 15.65%;
+  top: 49.93%;
+  bottom: 21.75%;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #212121;
+}
+.customer1 {
+  position: absolute;
+  width: 313px;
+  height: 342.5px;
+  left: 82px;
+  top: 14px;
+}
+.customer2 {
+  position: absolute;
+  width: 313px;
+  height: 342.5px;
+  left: 395px;
+  top: 14px;
+}
+.customer3 {
+  position: absolute;
+  width: 313px;
+  height: 342.5px;
+  left: 708px;
+  top: 14px;
+}
+.customer4 {
+  position: absolute;
+  width: 313px;
+  height: 342.5px;
+  left: 1021px;
+  top: 24px;
+}
+.customer5 {
+  position: absolute;
+  width: 313px;
+  height: 342.5px;
+  left: 82px;
+  top: 300px;
+}
+.customer6 {
+  position: absolute;
+  width: 313px;
+  height: 342.5px;
+  left: 395px;
+  top: 300px;
+}
+.customer7 {
+  position: absolute;
+  width: 313px;
+  height: 342.5px;
+  left: 708px;
+  top: 300px;
+}
+.customer8 {
+  position: absolute;
+  width: 313px;
+  height: 342.5px;
+  left: 1021px;
+  top: 300px;
+}
+
+/* Core Values */
+.core_value_page {
+  position: absolute;
+  top: 260%;
+}
+.corevalues {
+  position: absolute;
+  width: 140px;
+  height: 31px;
+  left: 5%;
+  top: 390%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.core_values_text {
+  position: absolute;
+  width: 666px;
+  height: 57px;
+  left: 5%;
+  top: 400%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+  letter-spacing: -0.02em;
+  color: rgba(33, 33, 33, 0.8);
+}
+.core_values_cards {
+  width: 1440px;
+}
+.core_values_card1 {
+  position: absolute;
+  width: 28%;
+  height: 70%;
+  left: 5%;
+  top: 415%;
+  border: 1px solid #232323;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.core_values_card2 {
+  position: absolute;
+  width: 28%;
+  height: 70%;
+  left: 35%;
+  top: 415%;
+  border: 1px solid #232323;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.core_values_card3 {
+  position: absolute;
+  width: 28%;
+  height: 70%;
+  left: 65%;
+  top: 415%;
+  border: 1px solid #232323;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.card_image {
+}
+.card_text {
+  position: absolute;
+  width: 100%;
+  height: 10%;
+  left: 15%;
+  top: 50%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+.card_textdescription {
+  position: absolute;
+  width: 80%;
+  height: 100%;
+  left: 15%;
+  top: 60%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 140%;
+  line-height: 27px;
+  /* or 150% */
+  letter-spacing: -0.02em;
+  color: rgba(33, 33, 33, 0.8);
+}
+
+/* Services */
+
+.Services {
+  position: absolute;
+  width: 97px;
+  height: 31px;
+  left: 64px;
+  top: 500%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.services_text {
+  position: absolute;
+  width: 757px;
+  height: 34px;
+  left: 64px;
+  top: 510%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+  letter-spacing: -0.02em;
+  color: rgba(33, 33, 33, 0.8);
+}
+.serviceCards {
+  position: absolute;
+  width: 1090px;
+  height: 100%;
+  left: 175px;
+  top: 520%;
+}
+.serviceCard1 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 82.39%;
+}
+.serviceCard2 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 19.76%;
+  bottom: 62.63%;
+}
+.serviceCard3 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 39.52%;
+  bottom: 42.88%;
+}
+.serviceCard4 {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 59.27%;
+  bottom: 23.12%;
+}
+.serviceCardName {
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  right: 83.58%;
+  top: 5.24%;
+  bottom: 89.65%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 38px;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.serviceCardText {
+  display: none;
+}
+.exploremore_button {
+  position: absolute;
+  left: 80.83%;
+  right: 0.64%;
+  top: 88.98%;
+  bottom: 1.61%;
+}
+/* .hr_break{
+  position: absolute;
+  top: 800%;
+} */
+
+/* Products */
+.Products_page{
+  position: ;
+  width: 1376px;
+  height: 815px;
+  left: 62px;
+  top: 5078px;
+
+}
+.products_text{
+  position: absolute;
+  width: 221px;
+  height: 65px;
+  left: 62px;
+  top: 5078px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 65px;
+  color: #000000;
+}
+.products_textdescription{
+  position: absolute;
+  width: 927px;
+  height: 46px;
+  left: 65px;
+  top: 5201px;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px; 
+  color: #212121;
+}
+.products_box{
+  position: absolute;
+  width: 1373px;
+  height: 487px;
+  left: 65px;
+  top: 5406px;
+  overflow-x: ;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.product1{
+
+  width: 424px;
+  height: 487px;
+  left: 0px;
+  top: 0px;
+}
+.product1_description{
+  position: absolute;
+  width: 405px;
+  height: 17px;
+  left: 75px;
+  top: 400px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+}
+.product1_image{
+  
+}
+.product2{
+  width: 424px;
+  height: 487px;
+  left: 424px;
+  top: 0px;
+
+}
+.product2_description{
+  position: absolute;
+  width: 83px;
+  height: 19px;
+  left: 563px;
+  top: 400px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;  
+  color: #000000;
+
+}
+.product2_image{
+
+}
+.product3{
+  width: 424px;
+  height: 487px;
+  left: 848px;
+  top: 0px;
+
+}
+.product3_description{
+  position: absolute;
+  width: 470px;
+  height: 22px;
+  left: 929px;
+  top: 400px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+
+}
+.product3_image{
+
+}
+.contact_text{
+  position: absolute;
+  width: 96px;
+  height: 31px;
+  left: 62px;
+  top: 6195px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: -0.02em;
+  color: #000000;
+
+}
+.contact_description{
+  position: absolute;
+  width: 553px;
+  height: 54px;
+  left: 62px;
+  top: 6275px;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+  letter-spacing: -0.02em;
+  color: rgba(33, 33, 33, 0.8);
+}
+.conversation{
+  position: absolute;
+  width: 416px;
+  height: 44px;
+  left: 62px;
+  top: 6370px;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.getintough{
+  position: absolute;
+  width: 202px;
+  height: 70px;
+  left: 732px;
+  top: 6714px;
+
+} 
+.nfc_description_page{
+  position: absolute;
+  width: 1440px;
+  height: 5%;
+  left: 0px;  
+}
+.nfc_logo{
+  position: absolute;
+  left: 4.46%;
+  right: 88.44%;
+  top: 0%;
+  bottom: 84.45%;
+
+}
+.nfc_description{
+  position: absolute;
+  left: 22.49%;
+  right: 0.56%;
+  top: 2.55%;
+  bottom: 71.45%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 53px;
+  /* or 223% */
+  color: #000000;
+}
+.footer{
+  
+position: absolute;
+width: 1440px;
+height: 80%;
+left: 0px;
+top: 6928px;
+
+
+}
+.social{
+  position: absolute;
+  left: 4.18%;
+  right: 92.9%;
+  top: 250px;
+  bottom: 56.84%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  color: rgba(0, 0, 0, 0.95);
+
+}
+.social_text{
+  position: absolute;
+  left: 4.18%;
+  right: 92.9%;
+  top: .42%;
+  bottom: 56.84%;
+
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+
+color: rgba(0, 0, 0, 0.95);
+}
+.linkedin{
+  position: relative;
+  left: 25px;
+  right: 87.4%;
+  top: 10px;
+  bottom: 46.92%;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+
+  color: rgba(160, 160, 155, 0.95);
+
+}
+.facebook{
+  position: relative;
+  left: 25px;
+  right: 87.4%;
+  top: 10px;
+  bottom: 39.95%;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+
+  color: rgba(160, 160, 155, 0.95);
+
+}
+.instagram{
+  position: relative;
+  left: 25px;
+  right: 87.53%;
+  top: 10px;
+  bottom: 36.07%;
+
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+
+  color: rgba(160, 160, 155, 0.95);
+
+}
+.sitemap{
+  position: absolute;
+  left: 27.37%;
+  right: 68.73%;
+  top: 250px;
+  bottom: 56.84%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  color: rgba(0, 0, 0, 0.95);
+}
+.footer_aboutus{
+position: absolute;
+width: 100px;
+left: 27.37%;
+right: 66.99%;
+top: 25px;
+bottom: 46.89%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: rgba(160, 160, 155, 0.95);
+
+}
+.footer_services{
+position: absolute;
+left: 27.37%;
+right: 66.99%;
+top: 85px;
+bottom: 46.89%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: rgba(160, 160, 155, 0.95);
+
+}
+.footer_work{
+position: absolute;
+left: 27.44%;
+right: 69.36%;
+top: 63.81%;
+bottom: 32.95%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: rgba(160, 160, 155, 0.95);
+}
+.footer_careers{
+position: absolute;
+left: 27.37%;
+right: 67.83%;
+top: 70.78%;
+bottom: 25.98%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: rgba(160, 160, 155, 0.95);
+}
+.footer_contact{
+position: absolute;
+left: 27.44%;
+right: 66.92%;
+top: 77.75%;
+bottom: 19.01%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: rgba(160, 160, 155, 0.95);
+
+}
+.office{
+  position: absolute;
+  left: 50.42%;
+  right: 45.9%;
+  top: 250px;
+  bottom: 6.55%;
+  display: inline-block;
+  column-gap: 10px;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 13px;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.95);
+}
+.us{
+  position: absolute;
+  left: 50.56%;
+  right: 47.56%;
+  top: 55px;
+  bottom: 47.18%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.95);
+}
+.us_text{
+  position: absolute;
+  left: 50.56%;
+  right: 47.56%;
+  top: 10px;
+  bottom: 47.18%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.95);
+}
+.us_address{
+  position: absolute;
+  width: 180px;
+left: 50.56%;
+right: 34.05%;
+top: 80px;
+bottom: 28.28%;
+font-family: Mariupol;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+letter-spacing: 0.02em;
+color: rgba(160, 160, 155, 0.95);
+}
+.india{
+position: absolute;
+left: 73.75%;
+right: 22.56%;
+top: 50px;
+bottom: 47.18%;
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+letter-spacing: 0.02em;
+color: rgba(0, 0, 0, 0.95);
+
+}
+.india_text{
+  position: absolute;
+  left: 350px;
+  right: 22.56%;
+  top: 10px;
+  bottom: 47.18%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.95);
+}
+.india_address{
+  position: absolute;
+  width: 180px;
+  left: 350px;
+  right: 8.43%;
+  top: 80px;
+  bottom: 24.4%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  /* or 122% */
+  letter-spacing: 0.02em;
+  color: rgba(160, 160, 155, 0.95);
+}
+.footer_end_parts{
+  position: absolute;
+  width: 100%;
+  height: 76px;
+  left: 0px;
+  bottom: 0%;
+  background: #000000;
+}
+.copyright{
+  position: absolute;
+  left: 4.18%;
+  right: 77.02%;
+  top: 600px;
+  bottom: 0.4%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #000000;
+}
+.terms{
+  position: absolute;
+  left: 73.75%;
+  right: 19.08%;
+  top: 600px;
+  bottom: 0.8%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #A0A09B;
+}
+.privacypolicy{
+  position: absolute;
+  left: 86.21%;
+  right: 8.43%;
+  top: 600px;
+  bottom: 0.8%;
+  font-family: Mariupol;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height */
+  color: #A0A09B;
+
 }
