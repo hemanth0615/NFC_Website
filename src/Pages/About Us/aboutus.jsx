@@ -13,6 +13,10 @@ import government from "../../Images/government.png";
 import facility from "../../Images/facility-management.png";
 import supply from "../../Images/supply-chain.png";
 import events from "../../Images/events management.png";
+import idea from "../../Images/idea.png";
+import user from "../../Images/user.png";
+import technical from "../../Images/technical-support.png";
+import 'animate.css'
 
 function Aboutus(){
     return(
@@ -35,6 +39,13 @@ function Aboutus(){
                 <div className="content1">
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur 
                     adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum </span>
+                    <div className="icons">
+                        
+                        <img class="idea animate__animated animate__slideInRight" src={idea} />
+                        <img class="user animate__animated animate__slideInRight" src={user} />
+                        <img class="technical animate__animated animate__slideInRight" src={technical} />
+                    </div>
+                    
                 </div>
                 
             </div>
