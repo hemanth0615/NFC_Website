@@ -24,7 +24,7 @@ function Services(){
         <div>
             <div class="navbar">
                 <div>
-                    <img className="navbar-logo" src="{logo}" />
+                    <img className="navbar-logo" src={logo} />
                 </div>
                 <div className="nav-menu">
                     <p className='nav-item'><Link to="/aboutus" className='nav-links'> About Us</Link> </p>
@@ -35,8 +35,8 @@ function Services(){
                 </div>
             </div>
             <div className="section-1">
-                <span>Our</span><span>Services</span>
-                <span>Always there for our customers</span>
+                <span>Our</span><span className="blue">Services</span>
+                <h1>Always there for our customers</h1>
                 <img src={image1} />
             </div>
             <div className="section-2">
@@ -248,7 +248,6 @@ function Services(){
                 <span>We specialise in providing solutions in both software and staffing that require a thorough 
                 understanding of business, technology, and the balance between the two. </span>
             </div>
-            <hr />
             <div className="footer">
                 <div className="social">
                 <h1>social</h1>
