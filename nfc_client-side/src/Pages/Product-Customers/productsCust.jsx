@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import "./productsCust.css";
 import productsData from './prodCard1Data';
 import custData from './custData';
-import {Card1} from './Card1';
-import Card2 from './Card2';
+import {Card1} from './ProdCard1';
+import Card2 from './ProdCard2';
 
 
 function ProductsCust() {
@@ -12,7 +12,8 @@ function ProductsCust() {
     width:"59vw"
   }
   const activedivcss={
-    width:"60.3vw"
+    width:"60.3vw",
+    color:'white'
   }
 
   const inactiveBtncss={
@@ -20,14 +21,15 @@ function ProductsCust() {
     width:"38.4vw"
   }
   const inactivedivcss={
-    width:"39.4vw"
+    width:"39.4vw",
+    color:'black'
   }
   let divProdCss=activedivcss;
   let btnProdCss=activeBtncss;
   let divCustCss=inactivedivcss;
   let btnCustCss=inactiveBtncss;
 
-  const [toggle,setToggle]=useState("");
+  const [toggle,setToggle]=useState("P");
 
   const setP=()=>{
     setToggle("P")
@@ -46,6 +48,7 @@ function ProductsCust() {
     btnCustCss=inactiveBtncss;
     prodcustdata=productsData;
   }else{
+  
     divCustCss=activedivcss;
     btnCustCss=activeBtncss;
     divProdCss=inactivedivcss;
@@ -69,7 +72,7 @@ function ProductsCust() {
     
 
     <div className='card1-div'>
-      <Card1 Data={prodcustdata} />
+      <Card1 Data={prodcustdata} p_or_c={toggle} />
     </div>
 
     <div className='con'>
@@ -78,7 +81,7 @@ function ProductsCust() {
 
 
     <div className='products-info'>
-      <Card2 Data={prodcustdata} />
+      <Card2 Data={prodcustdata}  p_or_c={toggle} />
     </div>
 
 
