@@ -1,0 +1,100 @@
+.C-section3{
+    position: relative;
+}
+.social{
+    position: absolute;
+    left: 100px;
+}
+.social-h{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.social>p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #A0A09B;
+    line-height: 35px;
+}
+.sitemap{
+    position: absolute;
+    left: 28%;
+}
+.sitemap-h{
+    font-size: 18px;
+    font-weight: 700;
+}
+.sitemap>p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #A0A09B;
+    line-height: 35px;
+}
+.office{
+    position: absolute;
+    left: 50%;
+}
+.office-h{
+    font-size: 18px;
+    font-weight: 700;
+}
+.us-c>h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.us-c>p{
+    width: 220px;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A0A09B;
+    line-height: 22px;
+}
+.india-c{
+    position: relative;
+    left: 350px;
+    bottom: 177px;
+}
+.india-c>h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.india-c>p{
+    width: 250px;
+    height: 110px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A0A09B;
+    line-height: 22px;
+}
+.extra{
+    position: absolute;
+    top: 400px;
+    padding-bottom: 100px;
+}
+.copyright{
+    width: 270px;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.terms{
+    position: relative;
+    left: 800px;
+    top: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #A0A09B;
+    text-decoration: underline;
+}
+.privacy{
+    position: relative;
+    left: 900px;
+    top: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #A0A09B;
+    text-decoration: underline;
+}

@@ -1,0 +1,28 @@
+.nfc_description_page{
+  position: absolute;
+  width: 1440px;
+  height: 5%;
+  left: 0px;  
+}
+.nfc_logo{
+  position: absolute;
+  left: 4.46%;
+  right: 88.44%;
+  top: 0%;
+  bottom: 84.45%;
+
+}
+.nfc_description{
+  position: absolute;
+  left: 22.49%;
+  right: 0.56%;
+  top: 2.55%;
+  bottom: 71.45%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 53px;
+  /* or 223% */
+  color: #000000;
+}

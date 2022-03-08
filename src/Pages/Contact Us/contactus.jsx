@@ -1,6 +1,9 @@
 import "./contactus.css";
 import Navbar from "../../Components/navbar/navbar";
-import nfcTag from "../../Components/NFC-TAG/nfc_tag"
+import nfcTag from "../../Components/NFC-TAG/nfc_tag";
+import Semicircle from "../../Images/Ellipse 99.png";
+import Logo from "../../Images/logo.png";
+
 function contactUs(){
     return(
         <>
@@ -10,6 +13,9 @@ function contactUs(){
             <div className="body1">
                 <div className="semicicle">
                     <p className="body1_text">Lorem ipsum dolor sit amet,consectetur adipiscing elitm ipsum dolor sit.</p>
+                    <div className="semicircle">
+                        {/* <img class="semicricle" src={Semicircle} alt="" /> */}
+                    </div>
                 </div>
             </div>
             <div className="body2">
@@ -24,6 +30,8 @@ function contactUs(){
                     <input className="contactus_help" type="text" name="name" placeholder="How can we help*" required />
                     <button class="contactus_send_button"><p className="contactus_send_text">Send</p></button> 
                 </div>
+            </div>
+            <div class="body3">
                 <div className="ourLocation">
                     <p className="contactus_ourlocation_text">Our Location</p>
                     <div className="address_boxes">
@@ -41,13 +49,63 @@ function contactUs(){
                             (Behind Ratnadeep Super Market)
                             White Fields, Kondapur,
                             Hyderabad, Telangana – 500084</p>
-                            
                         </div>
                     </div> 
                 </div>
-                <nfcTag />
             </div>
+            <div className="body4">
+                <div className="nfc_description_page">
+                    <img src={Logo} alt="" className="nfc_logo" />
+                    <p className="nfc_description">We specialise in providing solutions in both software and staffing that require a thorough understanding of business, technology, and the balance between the two. </p>
+                    <hr class="nfc_description_page_hr"></hr>
+                </div>
+                
+            </div>
+            <div className="contactus_footer">
+                <div className="body5_footer">
+            
+                <div className="C-section3">
+                <div className="social">
+                <h1 className="social-h">social</h1><br />
+                    <p>linkedin</p>
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                </div>
+                <div className="sitemap">
+                <h1 className="sitemap-h">sitemap</h1><br />
+                    <p>About us</p>
+                    <p>Services</p>
+                    <p>Work</p>
+                    <p>Careers</p>
+                    <p>Contact</p>
+                </div>
+                <div className="office">
+                    <h1 className="office-h">office</h1><br />
+                    <div className="us-c">
+                        <h2>US</h2><br />
+                        <p>4320 Winfield Road
+                        Suite 200, Warrenville
+                        Illinois, 60555</p>
+                    </div>
+                    <div className="india-c">
+                        <h2>India</h2><br />
+                        <p>2nd Floor MR Prime,
+                        Survey No.6, BP Raju Marg,
+                        (Behind Ratnadeep Super Market) White Fields, Kondapur, Hyderabad, Telangana, 500084</p>
+                    </div>                   
+                </div>
+                <div className="extra">
+                    <span className="copyright">© Copyright nfcsolutionsusa. All Rights Reserved</span>
+                    <span className="terms">Terms & Conditons</span>
+                    <span className="privacy">Privacy Policy</span>
+                </div>
+                
+            </div>
+            </div> 
+            </div>
+            
 
+            
         </>
     );
 }
