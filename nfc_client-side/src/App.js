@@ -2,8 +2,7 @@ import React from "react";
 import{
   BrowserRouter as Router,
   Route,
-  Switch,
-  Link
+  Switch
 }from "react-router-dom";
 
 import Home from "./Pages/Home/home";
@@ -13,6 +12,7 @@ import ProductsCust from "./Pages/Product-Customers/productsCust";
 import Services from "./Pages/Services/services";
 import ContactUs from "./Pages/Contact Us/contactus";
 import Careers from "./Pages/Careers/careers";
+import AddContent from "./Pages/Add-content/addContent";
 
 function App() {
   return (
@@ -41,6 +41,10 @@ function App() {
 
      <Route path='/Careers'>
        <Careers />
+     </Route>
+
+     <Route path='/add-content'>
+       <AddContent />
      </Route>
      
       </Switch>

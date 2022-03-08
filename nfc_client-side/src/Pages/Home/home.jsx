@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../Images/logo.png";
+// import Logo from "../../Images/logo.png";
 import "./home.css";
 import Navbar from "../../Components/navbar/navbar";
 
@@ -15,24 +15,24 @@ function Card(props){
     
 }
 
-function serviceCard(props){
-    return(
-        <>
-            <p class="serviceCardName">{props.service}</p>
-            <p class="serviceCardText">{props.servicedescription}</p>
-            <img class="serviceImage" src={props.image} alt='' />
-        </>
-    );
-}
+// function serviceCard(props){
+//     return(
+//         <>
+//             <p class="serviceCardName">{props.service}</p>
+//             <p class="serviceCardText">{props.servicedescription}</p>
+//             <img class="serviceImage" src={props.image} alt='' />
+//         </>
+//     );
+// }
 
-function slider(){
-    return(
-        <>
+// function slider(){
+//     return(
+//         <>
 
-        </>
+//         </>
 
-    );
-}
+//     );
+// }
 function Home(){
     return (
         <div>

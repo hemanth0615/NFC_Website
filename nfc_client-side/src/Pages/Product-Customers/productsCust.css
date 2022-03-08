@@ -29,9 +29,9 @@
     box-shadow: 0px 16px 40px rgba(168, 182, 197, 0.2);
     border-radius: 20px;
     display: flex;
-    width :96vw;
+    width :92vw;
     height:fit-content;
-    margin-left: 2vw;
+    margin-left: 3.5vw;
     flex-direction: row;
     flex-wrap: wrap;
     flex-shrink: initial;
@@ -40,18 +40,20 @@
 .inter-card1{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    margin-left: 55px;
+    justify-content: space-evenly;
     margin-right: 30px;
+    height: 70vh;
+    margin-left: 7vw;
+
 }
 
 .card1-img>img{
     height: 25vh;
     width: 14vw;
-
-    /* padding: 50px; */
 }
-
+.card1-c{
+    width: 14vw;
+}
 .card1-c>p{
     font-family: Gilroy;
     font-style: normal;
@@ -60,7 +62,6 @@
     line-height: 31px;
     text-align: center;
     letter-spacing: 0.02em;
-
     color: #292929;
 }
 .card2-img{
@@ -71,13 +72,14 @@
     border-radius: 10px;
     height: 42vh;
     width: 24vw;
-    position: absolute  ;
+    position: absolute;
     z-index: 1;
+    padding: 1vw;
 }
 .card2-img>img{
     height: 30vh;
     width: 21vw;
-
+    margin: 8px;
 }
 
 .card2-content{
@@ -188,7 +190,7 @@ button:hover{
     line-height: 31px;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #000000;
+    /* color: #000000; */
     font-family: Gilroy;
     text-decoration: none;
     width: fit-content;
@@ -198,8 +200,16 @@ button:hover{
     position: relative;
     top: -10vh;
     left: 22vw;
-    color: white;
+    /* color: white; */
     cursor: pointer;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+
 }
 
 .cust-btn-div>p{
@@ -207,6 +217,13 @@ button:hover{
     top: -10vh;
     left: 13vw;
     cursor: pointer;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+
 }
 
 /* .prod-cust-div{
