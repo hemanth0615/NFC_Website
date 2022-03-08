@@ -298,11 +298,7 @@ color: #000000;
   /* or 223% */
   color: #000000;
 }
-.contactus_footer{
-    position: inherit;
-    bottom: 0%;
-}
-.body5_footer{
+/* .body5_footer{
     bottom: 0%
 }
 .C-section3{
@@ -406,4 +402,4 @@ color: #000000;
     font-weight: 500;
     color: #A0A09B;
     text-decoration: underline;
-}
+} */

@@ -1,0 +1,40 @@
+.navbar-logo{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 100px;
+    height: 115px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    width: 540px;
+    height: 25px;
+  }
+.nav-item {
+    height: 25px;
+    width: 80px;
+  }
+.section-1>img{
+  position: relative;
+  left: 555px;
+  bottom: 200px;
+}
+.section-1>span{
+  position: relative;
+  bottom: 500px;
+  font-size: 24px;
+  font-weight: 500;
+  word-spacing: 5px;
+}
+.section-1>h1{
+  font-size: 54px;
+  font-weight: 700;
+  width: 400px;
+  height: 130px;
+}
+.blue{
+  color: #059FFF;
+}

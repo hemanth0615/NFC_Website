@@ -1,7 +1,6 @@
 import "./contactus.css";
 import Navbar from "../../Components/navbar/navbar";
 import nfcTag from "../../Components/NFC-TAG/nfc_tag";
-import Semicircle from "../../Images/Ellipse 99.png";
 import Logo from "../../Images/logo.png";
 
 function contactUs(){
@@ -62,7 +61,9 @@ function contactUs(){
                 
             </div>
             <div className="contactus_footer">
-                <div className="body5_footer">
+
+            </div>
+            <div className="body5_footer">
             
                 <div className="C-section3">
                 <div className="social">
@@ -102,8 +103,6 @@ function contactUs(){
                 
             </div>
             </div> 
-            </div>
-            
 
             
         </>

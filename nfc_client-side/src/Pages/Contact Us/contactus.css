@@ -1,0 +1,409 @@
+.body1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 15%;
+    background: #C1C1C1;
+}
+.body1_text{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 10.09%;
+    bottom: 78.47%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+/* .semicircle{
+    position: absolute;
+width: 1672px;
+height: 1497px;
+left: -115px;
+top: 5px;
+
+background: #059FFF;
+} */
+.body2{
+    position: absolute;
+    top: 115%;
+    width: 100%;
+    height: 100%;
+}
+.body2_text1{
+    position: relative;
+    width: 416px;
+    height: 54px;
+    left: 5%;
+    top: 10%;
+
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 27px;
+    /* or 75% */
+    letter-spacing: -0.02em;
+    color: #000000;
+
+}
+.body2_text2{
+    position: relative;
+    width: 553px;
+    height: 54px;
+    left: 5%;
+    top: 10%;
+    font-family: Mariupol;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    /* or 150% */
+    letter-spacing: -0.02em;
+    color: rgba(33, 33, 33, 0.8);
+}
+.contactus_conversation{
+    position: relative;
+    width: 416px;
+    height: 44px;
+    left: 5%;
+    top: 10%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    color: #000000;
+
+}
+.body2_box{
+    position: absolute;
+    width: 40%;
+    height: 80%;
+    left: 50%;
+    top: 10%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.body2_box ::placeholder{ 
+    position: initial;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    padding-top: 15%;
+    padding-bottom: %;
+    padding-left: 3%;
+    color: #FFFFFF;
+}
+.body2_box button p{
+    position: relative;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 10px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+}
+.contactus_fname{
+    position: relative;
+    border: none;
+    width: 40%;
+    height: 8%;
+    left: 7%;
+    top: 5%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_lname{
+    position: relative;
+    border: none;
+    width: 40%;
+    height: 8%;
+    left: 10%;
+    top: 5%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+.contactus_phone{
+    position: absolute;
+    border: none;
+    width: 85%;
+    height: 8%;
+    left: 7%;
+    top: 18%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_email{
+    position: absolute;
+    border: none;
+    width: 85%;
+    height: 8%;
+    left: 7%;
+    top: 31%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+}
+.contactus_help{
+    position: absolute;
+    border: none;
+    width: 85%;
+    height: 40%;
+    left: 7%;
+    top: 44%;
+    background: #0073CB;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+.contactus_send_button{
+    position: absolute;
+    border: none;
+    width: 22%;
+    height: 8%;
+    top: 89%;
+    left: 41%;
+    right: ;
+    bottom: 2%;
+    background: #4E4E4E;
+    border-radius: 10px;
+}
+.body3{
+    position: absolute;
+    top: 215%;
+    width: 100%;
+    height: 100%;
+}
+.contactus_ourlocation_text{
+position: relative;
+width: 249px;
+height: 48px;
+left: 5%;
+top: 10%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+
+}
+.address_boxes{
+    
+}
+.contactus_usa_box{
+    position: absolute;
+    width: 26%;
+    left: 17%;
+    right: 70%;
+    top: 20%;
+    height: 40%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.contactus_india_box{
+    position: absolute;
+    width: 26%;
+    height: 40%;
+    left: 49%;
+    right: 70%;
+    top: 35%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.3), 0px 0px 4px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.usa_text{
+    position: relative;
+    left: 44.22%;
+    right: 44.44%;
+    top: 3%;
+    bottom: 83.2%;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #0073CB;
+}
+.contactus_address{
+    position: relative;
+    width: 95%;
+left: 6.67%;
+right: 6.89%;
+top: 3%;
+bottom: 53.75%;
+
+font-family: Gilroy;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.02em;
+
+color: #000000;
+
+}
+.body4{
+    position: absolute;
+    top: 315%;
+    width: 100%;
+    height: 20%;
+}
+.nfc_description_page_hr{
+    position: absolute;
+    width: 105%;
+}
+.nfc_logo{
+  position: relative;
+  left: 4.46%;
+  right: 88.44%;
+  top: 4%;
+
+}
+.nfc_description{
+  position: relative;
+  left: 22.49%;
+  right: 0.56%;
+  top: 2.55%;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 53px;
+  /* or 223% */
+  color: #000000;
+}
+.contactus_footer{
+    position: inherit;
+    bottom: 0%;
+}
+.body5_footer{
+    bottom: 0%
+}
+.C-section3{
+    position: ;
+    bottom: 0%;
+}
+.social{
+    position: absolute;
+    left: 100px;
+    top: %;
+}
+.social-h{
+    font-size: 16px;
+    font-weight: 700;
+
+}
+.social>p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #A0A09B;
+    line-height: 35px;
+}
+.sitemap{
+    position: absolute;
+    left: 28%;
+}
+.sitemap-h{
+    font-size: 18px;
+    font-weight: 700;
+}
+.sitemap>p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #A0A09B;
+    line-height: 35px;
+}
+.office{
+    position: absolute;
+    left: 50%;
+}
+.office-h{
+    font-size: 18px;
+    font-weight: 700;
+}
+.us-c>h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.us-c>p{
+    width: 220px;
+    height: 80px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A0A09B;
+    line-height: 22px;
+}
+.india-c{
+    position: relative;
+    left: 350px;
+    bottom: 177px;
+}
+.india-c>h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.india-c>p{
+    width: 250px;
+    height: 110px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #A0A09B;
+    line-height: 22px;
+}
+.extra{
+    position: absolute;
+    top: 400px;
+    padding-bottom: 100px;
+}
+.copyright{
+    width: 270px;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.terms{
+    position: relative;
+    left: 800px;
+    top: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #A0A09B;
+    text-decoration: underline;
+}
+.privacy{
+    position: relative;
+    left: 900px;
+    top: 50px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #A0A09B;
+    text-decoration: underline;
+}
