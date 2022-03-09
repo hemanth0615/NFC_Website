@@ -55,8 +55,6 @@ function ProductsCust() {
     btnProdCss=inactiveBtncss;
     prodcustdata=custData;
   }
-
-
   return (
     <>
     <div className='prod-cust-div'>
