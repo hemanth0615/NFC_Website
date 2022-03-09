@@ -1,5 +1,5 @@
 import React from "react";
-// import Logo from "../../Images/logo.png";
+import Logo from "../../Images/logo.png";
 import "./home.css";
 import Navbar from "../../Components/navbar/navbar";
 
@@ -23,7 +23,6 @@ function Card(props){
         </>
     ); 
 }
-<<<<<<< HEAD:src/Pages/Home/home.jsx
 function Servicecard(props){
     return(
         <>
@@ -38,26 +37,9 @@ function Ourcustomers(props){
         <>
             <p className="customers_description">{props.customers_description}</p>
             <img src={props.customer_image} alt="" class="customer_image"  />
-=======
-
-// function serviceCard(props){
-//     return(
-//         <>
-//             <p class="serviceCardName">{props.service}</p>
-//             <p class="serviceCardText">{props.servicedescription}</p>
-//             <img class="serviceImage" src={props.image} alt='' />
-//         </>
-//     );
-// }
-
-// function slider(){
-//     return(
-//         <>
->>>>>>> 95a3283b0a98accc2880fa40661b8834743e3306:nfc_client-side/src/Pages/Home/home.jsx
 
 //         </>
 
-<<<<<<< HEAD:src/Pages/Home/home.jsx
     );
 }
 function Slideshow(props){
@@ -82,10 +64,6 @@ function Slideshow(props){
         </>
     );
 }
-=======
-//     );
-// }
->>>>>>> 95a3283b0a98accc2880fa40661b8834743e3306:nfc_client-side/src/Pages/Home/home.jsx
 function Home(){
     return (
         <div>
