@@ -13,6 +13,7 @@ import Services from "./Pages/Services/services";
 import ContactUs from "./Pages/Contact Us/contactus";
 import Careers from "./Pages/Careers/careers";
 import AddContent from "./Pages/Add-content/addContent";
+import Login from "./Pages/login/Login";
 
 function App() {
   return (
@@ -45,6 +46,9 @@ function App() {
 
      <Route path='/add-content'>
        <AddContent />
+     </Route>
+     <Route path='/login' >
+       <Login />
      </Route>
      
       </Switch>
