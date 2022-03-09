@@ -4,6 +4,8 @@ const mongoose=require("mongoose");
 const prodRoute=require('./routes/prodRoute');
 const custRoute=require('./routes/custRoute');
 const servicesRoute=require('./routes/servicesRoute');
+const userRoute=require('./routes/userRoute');
+
 
 const app=express();
 
@@ -27,3 +29,4 @@ app.listen(3030,()=>{
 app.use('/api/prod/',prodRoute);
 app.use('/api/cust/',custRoute);
 app.use('/api/service/',servicesRoute);
+app.use('/api/auth/',userRoute)
