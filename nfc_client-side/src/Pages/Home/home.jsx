@@ -38,7 +38,7 @@ function Ourcustomers(props){
             <p className="customers_description">{props.customers_description}</p>
             <img src={props.customer_image} alt="" class="customer_image"  />
 
-         </>
+</>
 
     );
 }
@@ -53,7 +53,7 @@ function Slideshow(props){
                     <p class="landingpage_productdescription_text">{props.landingpage_productdescription}</p>
                 </div>
                 <div className="landingpage_knowmore">
-                    <p class="landingpage_knowmore_text">{props.landingpage_knowmore}</p>
+                    <button class="landingpage_knowmore_text">{props.landingpage_knowmore}</button>
                 </div>
                 <div className="landingpage_productimage">
                     <img src={props.landingpage_productimage} alt="" class="landingpage_productimage_image" />
@@ -70,7 +70,7 @@ function Home(){
             <div class="navbar">
                 <Navbar />
             </div>
-            <div className="landingpage_body1">
+            <div className="landingpage_body1" >
                 <div className="slider">
                     <div className="slides">
                         <div class="slide1">
@@ -86,23 +86,24 @@ function Home(){
                     </div>
                     <div className="manual_buttons">
                         <button class="button1">
-                        <p className="button1_text">MYQUIX</p>
+                        <p className="button1_text">MYQUIX
+                        <hr /></p>
                             {/* <hr class="button1_line" /> */}
                         </button>
                         
                         {/* <hr class="button1_line" /> */}
                         <button class="button2">
-                            <p className="button2_text">ASSET MANAGEMENT</p>
+                            <p className="button2_text">ASSET MANAGEMENT <hr /></p>
                             {/* <hr class="button2_line" /> */}
                         </button>
                         
                         <button class="button3">
-                            <p className="button3_text">REPORTING TOOL</p>
+                            <p className="button3_text">REPORTING TOOL <hr /></p>
                             {/* <hr class="button3_line" /> */}
                         </button>
                         
                         <button class="button4">
-                            <p className="button4_text">SEE MORE</p>
+                            <p className="button4_text">SEE MORE <hr /></p>
                             {/* <hr class="button4_line" /> */}
                         </button>
                         
@@ -136,7 +137,9 @@ function Home(){
             <div className="landingpage_body4">
                 <p class="ourcustomers_text">Our customers</p>
                 <p class="ourcustomers_textdescription">lmao imessed up retty bad loreum be like lets sleep and im sure epsum is alone and typing dumb shit like this.</p>
-                <div className="ourcustomers_knowmore"><button class="ourcustomers_button">Know More</button></div>
+                <div className="landingpage_services_getintouch">
+                        <button className="landingpage_services_getintouch_button">Get in touch</button>
+                    </div>
                 <div className="ourcustomer_boxes">
                     <div className="box1">
                         <Ourcustomers customers_description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nulla maecenas turpis orci, suspendisse tincidunt. turpis orci, suspendisse tincidunt." customer_image={Logo} />
@@ -174,6 +177,9 @@ function Home(){
                         <Servicecard service="Software Development" servicedescription="Template helper for generator lorem-ipsum placeholder text. Should work with any template engine, but can also be used a regular javascript util." image={Logo} />
                         <hr></hr>
                     </div>
+                    <div className="landingpage_services_findmore">
+                        <button className="landingpage_services_findmore_button">Find More</button>
+                    </div>
                 </div>
                 
                
@@ -183,8 +189,8 @@ function Home(){
                 <div className="contact_page">
                     <p className="contact_text">Contact</p>
                     <p className="contact_description">Lorem ipsum dolor sit amet, consectetur adipiscing elitm ipsum dolor sit amet, consectetur.</p>
-                    <p className="conversation">Let’s start a conversation</p>
-                    <button className="getintough">Get in touch</button>
+                    <p className="conversation">Let’s start a <span class="span_conversation">conversation</span> </p>
+                    <button className="contact_page_submit">Submit</button>
                     <div className="landingpage_contactus_box">
                         <input class="landingpage_fname" type="text"  placeholder="First Name*" required />
                         <hr class="fname_line" />
@@ -200,39 +206,46 @@ function Home(){
                 </div>
 
             </div>
+            
             <div className="landingpage_footer">
+                <hr class="line_above_footer" />
                 <div className="landingpage_nfcdescription">
                     <img src={Logo} alt="" className="landingpage_footer_image" />
                     <p className="landingpage_footer_nfc_description">We specialise in providing solutions in both software and staffing that require a thorough understanding of business, technology, and the balance between the two. </p>
                 </div>
-                <ul className="landingpage_footer_social">
+                <div className="landingpage_footer_social">
                     <p className="landingpage_footer_social_text">Social</p>
-                    <li className="landingpage_footer_instagram">Instagram</li>
-                        <li className="landingpage_footer_facebook">Facebook</li>
-                        <li className="landingpage_footer_linkedin">LinkedIn</li>
-                        <li className="landingpage_footer_twitter">Twitter</li>
-                </ul>
-                <ul className="landingpage_footer_sitemap">
+                    <p className="landingpage_footer_instagram">Instagram</p>
+                        <p className="landingpage_footer_facebook">Facebook</p>
+                        <p className="landingpage_footer_linkedin">LinkedIn</p>
+                </div>
+                <div className="landingpage_footer_sitemap">
                     <p class="landingpage_footer_sitemap_text">Sitemap</p>
-                    <li className="landingpage_footer_aboutus">About Us</li>
-                    <li className="landingpage_footer_services">Services</li>
-                    <li className="landingpage_footer_work">Work</li>
-                    <li className="landingpage_footer_careers">Careers</li>
+                    <p className="landingpage_footer_aboutus">About Us</p>
+                    <p className="landingpage_footer_services">Services</p>
+                    <p className="landingpage_footer_work">Work</p>
+                    <p className="landingpage_footer_careers">Careers</p>
+                    <p className="landingpage_footer_contact">Contact</p>
+
                     
-                </ul>
+                </div>
                 <div className="landingpage_footer_office"><p />
                     <p className="landingpage_footer_office_text">Office</p>
-                    <ul className="landingpage_footer_usa">
+                    <div className="landingpage_footer_usa">
                         <p className="landingpage_footer_usa_text">USA</p>
                         <p className="landingpage_footer_usa_address">4320 Winfield Road Suite 200, Warrenville Illinois, 60555</p>
-                    </ul>
+                    </div>
                     <br />
-                    <ul className="landingpage_footer_india">
-                        <p className="landingpage_footer_india_text">India</p>
-                        <p className="landingpage_footer_india_address">2nd Floor MR Prime, Survey No.6, BP Raju Marg, (Behind Ratnadeep Super Market) White Fields, Kondapur, Hyderabad, Telangana, 500084</p>
-                    </ul>
+                    <div className="landingpage_footer_india">
+                        <p className="landingpage_footer_usa_text">India</p>
+                        <p className="landingpage_footer_usa_address">2nd Floor MR Prime, Survey No.6, BP Raju Marg, (Behind Ratnadeep Super Market) White Fields, Kondapur, Hyderabad, Telangana, 500084</p>
+                    </div>    
                 </div>
-                
+            </div>
+            <div className="footer_bottom">
+                <p className="landingpage_footer_copyright">© Copyright nfcsolutionsusa. All Rights Reserved</p>
+                <p className="landingpage_footer_terms">Terms & Conditons <hr /></p>
+                <p className="landingpage_footer_privacy">Privacy Policy <hr /></p>
             </div>
         </div>
     );

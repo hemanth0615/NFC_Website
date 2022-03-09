@@ -1,7 +1,6 @@
 import "./contactus.css";
 import Navbar from "../../Components/navbar/navbar";
-// import nfcTag from "../../Components/NFC-TAG/nfc_tag";
-// import Semicircle from "../../Images/Ellipse 99.png";
+import nfcTag from "../../Components/NFC-TAG/nfc_tag";
 import Logo from "../../Images/logo.png";
 
 function contactUs(){
@@ -17,7 +16,7 @@ function contactUs(){
                         {/* <img class="semicricle" src={Semicircle} alt="" /> */}
                     </div>
                 </div>
-            </div>
+            </div> 
             <div className="body2">
                 <p className="body2_text1">Lorem ipsum dolor sit amet</p>
                 <p className="body2_text2">Lorem ipsum dolor sit amet, consectetur adipiscing elitm ipsum dolor sit amet, consectetur.</p>
@@ -39,7 +38,8 @@ function contactUs(){
                             <p className="usa_text">
                             USA</p>
                             <p className="contactus_address">4320 Winfield Road Suite 200, Warrenville Illinois, 60555
-                            United States of America</p>
+                            United States of America <br /> <br /> <span>Phone : +1 (630) 836 8067</span></p>
+                            
                         </div>
                         <div className="contactus_india_box">
                             <p className="usa_text">
@@ -48,61 +48,58 @@ function contactUs(){
                             Survey No.6, BP Raju Marg,
                             (Behind Ratnadeep Super Market)
                             White Fields, Kondapur,
-                            Hyderabad, Telangana – 500084</p>
+                            Hyderabad, Telangana – 500084 <br /> <br /> <span>Phone : +91 XXXXXXXXXX</span></p>
+                            
                         </div>
                     </div> 
                 </div>
             </div>
             <div className="body4">
                 <div className="nfc_description_page">
+                <hr /> <br />
                     <img src={Logo} alt="" className="nfc_logo" />
                     <p className="nfc_description">We specialise in providing solutions in both software and staffing that require a thorough understanding of business, technology, and the balance between the two. </p>
-                    <hr class="nfc_description_page_hr"></hr>
+                    <hr ></hr>
                 </div>
                 
             </div>
-            <div className="contactus_footer">
-                <div className="body5_footer">
-            
-                <div className="C-section3">
-                <div className="social">
-                <h1 className="social-h">social</h1><br />
-                    <p>linkedin</p>
-                    <p>Facebook</p>
-                    <p>Instagram</p>
+            <div className="Contactus_footer">
+            {/* <hr class="line_above_footer" /> */}
+                <div className="Contactus_footer_social">
+                    <h2 className="Contactus_footer_social_text">Social</h2>
+                    <p className="Contactus_footer_instagram">Instagram</p>
+                        <p className="Contactus_footer_facebook">Facebook</p>
+                        <p className="Contactus_footer_linkedin">LinkedIn</p>
                 </div>
-                <div className="sitemap">
-                <h1 className="sitemap-h">sitemap</h1><br />
-                    <p>About us</p>
-                    <p>Services</p>
-                    <p>Work</p>
-                    <p>Careers</p>
-                    <p>Contact</p>
+                <div className="Contactus_footer_sitemap">
+                    <h2 class="Contactus_footer_sitemap_text">Sitemap</h2>
+                    <p className="Contactus_footer_aboutus">About Us</p>
+                    <p className="Contactus_footer_services">Services</p>
+                    <p className="Contactus_footer_work">Work</p>
+                    <p className="Contactus_footer_careers">Careers</p>
+                    <p className="Contactus_footer_contact">Contact</p>
+
+                    
                 </div>
-                <div className="office">
-                    <h1 className="office-h">office</h1><br />
-                    <div className="us-c">
-                        <h2>US</h2><br />
-                        <p>4320 Winfield Road
-                        Suite 200, Warrenville
-                        Illinois, 60555</p>
+                <div className="Contactus_footer_office"><p />
+                    <p className="Contactus_footer_office_text">Office</p>
+                    <div className="Contactus_footer_usa">
+                        <p className="Contactus_footer_usa_text">USA</p>
+                        <p className="Contactus_footer_usa_address">4320 Winfield Road Suite 200, Warrenville Illinois, 60555</p>
                     </div>
-                    <div className="india-c">
-                        <h2>India</h2><br />
-                        <p>2nd Floor MR Prime,
-                        Survey No.6, BP Raju Marg,
-                        (Behind Ratnadeep Super Market) White Fields, Kondapur, Hyderabad, Telangana, 500084</p>
-                    </div>                   
+                    <br />
+                    <div className="Contactus_footer_india">
+                        <p className="Contactus_footer_usa_text">India</p>
+                        <p className="Contactus_footer_usa_address">2nd Floor MR Prime, Survey No.6, BP Raju Marg, (Behind Ratnadeep Super Market) White Fields, Kondapur, Hyderabad, Telangana, 500084</p>
+                    </div>    
                 </div>
-                <div className="extra">
-                    <span className="copyright">© Copyright nfcsolutionsusa. All Rights Reserved</span>
-                    <span className="terms">Terms & Conditons</span>
-                    <span className="privacy">Privacy Policy</span>
-                </div>
-                
             </div>
-            </div> 
+            <div className="Contactus_footer_bottom">
+                <p className="Contactus_footer_copyright">© Copyright nfcsolutionsusa. All Rights Reserved</p>
+                <p className="Contactus_footer_terms">Terms & Conditons <hr /></p>
+                <p className="Contactus_footer_privacy">Privacy Policy <hr /></p>
             </div>
+        
             
 
             
