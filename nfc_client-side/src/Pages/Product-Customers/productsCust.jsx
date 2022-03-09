@@ -4,7 +4,9 @@ import productsData from './prodCard1Data';
 import custData from './custData';
 import {Card1} from './ProdCard1';
 import Card2 from './ProdCard2';
-
+import Footer from './footer-navbar/footer';
+import Navbar from '../../Components/navbar/navbar.jsx';
+import img1 from './prod-images/img1.png';
 
 function ProductsCust() {
   const activeBtncss={
@@ -59,6 +61,17 @@ function ProductsCust() {
 
   return (
     <>
+    <Navbar />
+    <div className='skewed-img-div'>
+      <div className='skew-con'>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitm ipsum dolor sit.</p>
+      </div>
+      <div className='skewed-img'>
+        <img src={img1} alt="" />
+      </div>
+    </div>
+
+
     <div className='prod-cust-div'>
         <div className='prod-btn-div' style={divProdCss} onClick={setP}>
           <button className='prod-btn' style={btnProdCss} ></button>
@@ -84,7 +97,7 @@ function ProductsCust() {
       <Card2 Data={prodcustdata}  p_or_c={toggle} />
     </div>
 
-
+    <Footer />
     </>
 
   );

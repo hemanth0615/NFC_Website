@@ -1,3 +1,8 @@
+@font-face {
+    font-family:Gilroy ;
+    src: url('../../fonts/Gilroy-ExtraBold.otf');
+}
+
 .con-p{
     font-family: Gilroy;
     font-style: normal;
@@ -36,6 +41,20 @@
     flex-wrap: wrap;
     flex-shrink: initial;
 }
+.con{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+
+}
+
 
 .inter-card1{
     display: flex;
@@ -130,6 +149,7 @@
 }
 
 .card2-div{
+    margin-top: 5vh;
     margin-bottom: 100px;
     position: relative;
 }
@@ -226,9 +246,47 @@ button:hover{
 
 }
 
-/* .prod-cust-div{
-    width: 90%;
+.skewed-img-div{
+    position: relative;
+    margin-top: 22vh;
     overflow: hidden;
-} */
+}
 
+.skewed-img{
+    height: 80vh;
+    width: 40vw;
 
+    /* overflow:hidden; */
+}
+.skew-div{
+    height: 80vh;
+    width: 40vw;
+}
+.skewed-img>img{
+    height: 80vh;
+    width: 60vw;
+    transform: skew(-20deg);
+    position: relative;
+    left: 47vw;
+    overflow: hidden;
+}
+
+.skew-con{
+    width: 49vw;
+    position: absolute;
+    left: 2vw;
+    top: 20vh;
+}
+
+.skew-con>p{
+    width: 49vw;
+    
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+
+    color: #000000;
+}
