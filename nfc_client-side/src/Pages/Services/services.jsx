@@ -83,15 +83,15 @@ function Services(){
                 <span>We specialise in providing solutions in both software and staffing that require a thorough 
                 understanding of business, technology, and the balance between the two. </span>
             </div>
-            <div className="footer">
-                <div className="social">
-                <h1>social</h1>
-                    <p>LINKEDIN</p>
-                    <p>FACEBOOK</p>
-                    <p>INSTAGRAM</p>
-                </div>
+            <div className="S-section3">
+                {/* <div className="social">
+                    <h1 className="social-h1">social</h1><br />
+                    <p>linkedin</p>
+                    <p>Facebook</p>
+                    <p>Instagram</p>
+                </div> */}
                 <div className="sitemap">
-                <h1>sitemap</h1>
+                <h1 className="sitemap-h">sitemap</h1><br />
                     <p>About us</p>
                     <p>Services</p>
                     <p>Work</p>
@@ -99,19 +99,26 @@ function Services(){
                     <p>Contact</p>
                 </div>
                 <div className="office">
-                    <h1>office</h1>
-                    <h2>US</h2>
-                    <p>4320 Winfield Road
-                    Suite 200, Warrenville
-                    Illinois, 60555</p>
-                    <h2>India</h2>
-                    <p>2nd Floor MR Prime,
-                    Survey No.6, BP Raju Marg,
-                    (Behind Ratnadeep Super Market) White Fields, Kondapur, Hyderabad, Telangana, 500084</p>
+                    <h1 className="office-h">office</h1><br />
+                    <div className="us-c">
+                        <h2>US</h2><br />
+                        <p>4320 Winfield Road
+                        Suite 200, Warrenville
+                        Illinois, 60555</p>
+                    </div>
+                    <div className="india-c">
+                        <h2>India</h2><br />
+                        <p>2nd Floor MR Prime,
+                        Survey No.6, BP Raju Marg,
+                        (Behind Ratnadeep Super Market) White Fields, Kondapur, Hyderabad, Telangana, 500084</p>
+                    </div>                   
                 </div>
-                <span>© Copyright nfcsolutionsusa. All Rights Reserved</span>
-                <span>Terms & Conditons</span>
-                <span>Privacy Policy</span>
+                {/* <div className="extra">
+                    <span className="copyright">© Copyright nfcsolutionsusa. All Rights Reserved</span>
+                    <span className="terms">Terms & Conditons</span>
+                    <span className="privacy">Privacy Policy</span>
+                </div> */}
+                
             </div>
         </div>
     )
