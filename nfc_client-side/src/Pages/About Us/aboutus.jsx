@@ -116,7 +116,7 @@ function Aboutus(){
             
             <div className="A-section5">
                 <div className="social">
-                <h1 className="social-h">social</h1><br />
+                <h1 className="social-h1">social</h1><br />
                     <p>linkedin</p>
                     <p>Facebook</p>
                     <p>Instagram</p>
