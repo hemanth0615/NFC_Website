@@ -119,5 +119,10 @@
 }
 .A-section5{
     position: relative;
-    top: 0px;
+    top: 150px;
 }
+.social-h1{
+    position: absolute;
+    bottom: 195px;
+    font-size: 18px;
+} 
