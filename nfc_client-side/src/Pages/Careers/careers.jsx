@@ -9,7 +9,7 @@ function Careers(){
         <div>
             <div class="navbar">
                 <div>
-                    <img className="navbar-logo" src={logo} />
+                    <img className="navbar-logo" src={logo}  alt="" />
                 </div>
                 <div className="nav-menu">
                     <p className='nav-item'><Link to="/aboutus" className='nav-links'> About </Link> </p>
@@ -27,7 +27,7 @@ function Careers(){
                     pulvinar sem arcu integer nulla senectus.</span>
                 </div>
                 
-                <img className="holding" src={holding} />
+                <img className="holding" src={holding} alt=""  />
             </div>
             <div className="C-section2">
                 <h1 className="roles">Open Roles</h1>
@@ -47,7 +47,7 @@ function Careers(){
                     <button className="view">View more</button>
                 </div>
                 
-                    <img className="logo1" src={logo1} />
+                    <img className="logo1" src={logo1}  alt=""   />
                 <div className="about">
                     <span className="about-content">We specialise in providing solutions in both software and staffing that require a 
                     thorough understanding of business, technology, and the balance between the two. </span>

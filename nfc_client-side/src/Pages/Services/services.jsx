@@ -11,12 +11,14 @@ import service5 from "../../Images/Rectangle 298.png";
 import image2 from "../../Images/Development.png";
 import callimg from "../../Images/call.png";
 
+import ServicesCard  from "./servicesCard";
+
 function Services(){
     return(
         <div>
             <div class="navbar">
                 <div>
-                    <img className="navbar-logo1" src={logo} />
+                    <img className="navbar-logo1" src={logo} alt="" />
                 </div>
                 <div className="nav-menu1">
                     <p className='nav-item'><Link to="/aboutus" className='nav-links'> About Us</Link> </p>
@@ -29,45 +31,45 @@ function Services(){
             <div className="section-1">
                 <span>Our</span><span className="blue">Services</span>
                 <h1>Always there for our customers</h1>
-                <img src={image1} />
+                <img src={image1}  alt=""  />
             </div>
             <div className="section-2">
                 <div className="card1">
-                    <img src={service1} />
+                    <img src={service1}  alt=""  />
                     <ul><b>BACKEND SERVICES</b>
                         <li>Cloud computing</li>
                         <li>Oracle application</li>
                     </ul>
                 </div>
                 <div className="card2">
-                    <img src={service2} />
+                    <img src={service2}  alt="" />
                     <ul><b>WEB & APP DEVELOPMENT</b>
                         <li>Mobile app development</li>
                         <li>Enterprizes applications using Java,.net & PHP</li>
                     </ul>
                 </div>
                 <div className="card3">
-                    <img src={service3} />
+                    <img src={service3} alt=""  />
                     <ul><b>DATA ENGINERRING</b>
                         <li>Big Data</li>
                         <li>SAP</li>
                     </ul>
                 </div>
                 <div className="card4">
-                    <img src={service4} />
+                    <img src={service4} alt=""  />
                     <ul><b>TRAINING</b>
                         <li>Placement and training</li>
                     </ul>
                 </div>
                 <div className="card5">
-                    <img src={service5} />
+                    <img src={service5} alt=""  />
                     <ul><b>COMMUNICATIONS</b>
                         <li>NFC & RFID services</li>
                     </ul>
                 </div>
             </div>
             <div className="section2">
-                <img src={image2} />
+                <img src={image2}  alt="" />
                 <div className="section2-1">
                     <span>Loren ipsum dolor sit amet,consectetur  </span>
                 </div>
@@ -76,10 +78,16 @@ function Services(){
             <div className="section4">
                 <span>Loren ipsum dolor sit amet, consectetur  </span>
                 <button>Contact us</button>
-                <img src={callimg} />
+                <img src={callimg}  alt="" />
             </div>
+
+            <div>
+                <ServicesCard />
+            </div>
+
+
             <div className="section5">
-                <img src={logo} />
+                <img src={logo} alt=""  />
                 <span>We specialise in providing solutions in both software and staffing that require a thorough 
                 understanding of business, technology, and the balance between the two. </span>
             </div>

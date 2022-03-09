@@ -38,7 +38,7 @@ function Ourcustomers(props){
             <p className="customers_description">{props.customers_description}</p>
             <img src={props.customer_image} alt="" class="customer_image"  />
 
-//         </>
+         </>
 
     );
 }

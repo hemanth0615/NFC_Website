@@ -16,14 +16,14 @@ import hands from "../../Images/Rectangle 194.png";
 import idea from "../../Images/idea.png";
 import user from "../../Images/user.png";
 import technical from "../../Images/technical-support.png";
-import 'animate.css'
+// import 'animate.css'
 
 function Aboutus(){
     return(
         <div>
             <div class="navbar">
                 <div>
-                    <img className="navbar-logo" src={logo} />
+                    <img className="navbar-logo" src={logo}  alt="" />
                 </div>
                 <div className="nav-menu">
                     <p className='nav-item'><Link to="/aboutus" className='nav-links'> About</Link> </p>
@@ -35,15 +35,15 @@ function Aboutus(){
             </div>
             <div className="A-section1">
                 <h1>About Us</h1>
-                <img src={meeting} />
+                <img src={meeting} alt=""  />
                 <div className="content1">
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur 
                     adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum </span>
                     <div className="icons">
                         
-                        <img class="idea animate__animated animate__slideInRight" src={idea} />
-                        <img class="user animate__animated animate__slideInRight" src={user} />
-                        <img class="technical animate__animated animate__slideInRight" src={technical} />
+                        <img class="idea animate__animated animate__slideInRight" src={idea} alt=""  />
+                        <img class="user animate__animated animate__slideInRight" src={user}  alt="" />
+                        <img class="technical animate__animated animate__slideInRight" src={technical}  alt="" />
                     </div>
                     
                 </div>
@@ -51,7 +51,7 @@ function Aboutus(){
             </div>
             <div className="A-section2">
                 <h1>Our Vision</h1>
-                <img src={hands} />
+                <img src={hands} alt=""  />
                 <div className="content2">
                     <span>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur 
                     adipiscing elit.Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, 
@@ -107,7 +107,7 @@ function Aboutus(){
 
             </div> */}
             <div className="A-section4">
-                <img src={logo} />
+                <img src={logo}  alt="" />
                 <div className="about1">
                     <span className="about-content1">We specialise in providing solutions in both software and staffing that require a 
                     thorough understanding of business, technology, and the balance between the two. </span>
