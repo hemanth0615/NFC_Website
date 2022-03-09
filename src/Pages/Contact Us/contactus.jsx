@@ -1,13 +1,8 @@
 import "./contactus.css";
 import Navbar from "../../Components/navbar/navbar";
-<<<<<<< HEAD:src/Pages/Contact Us/contactus.jsx
 import nfcTag from "../../Components/NFC-TAG/nfc_tag";
-import Semicircle from "../../Images/Ellipse 99.png";
 import Logo from "../../Images/logo.png";
 
-=======
-// import nfcTag from "../../Components/NFC-TAG/nfc_tag"
->>>>>>> 95a3283b0a98accc2880fa40661b8834743e3306:nfc_client-side/src/Pages/Contact Us/contactus.jsx
 function contactUs(){
     return(
         <>
@@ -66,7 +61,9 @@ function contactUs(){
                 
             </div>
             <div className="contactus_footer">
-                <div className="body5_footer">
+
+            </div>
+            <div className="body5_footer">
             
                 <div className="C-section3">
                 <div className="social">
@@ -106,8 +103,6 @@ function contactUs(){
                 
             </div>
             </div> 
-            </div>
-            
 
             
         </>

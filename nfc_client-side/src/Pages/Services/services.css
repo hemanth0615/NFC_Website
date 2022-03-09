@@ -1,0 +1,63 @@
+.navbar-logo1{
+    margin-top: 10px;
+    margin-left: 60px;
+    width: 100px;
+    height: 115px;
+}
+.nav-menu1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    text-align: center;
+    position: relative;
+    left: 700px;
+    bottom: 80px;
+    width: 800px;
+    height: 30px;
+  }
+.nav-item {
+    height: 25px;
+    width: 80px;
+    color: #A0A09B;
+  }
+.section-1>img{
+  position: relative;
+  left: 555px;
+  bottom: 270px;
+}
+.section-1>span{
+  font-size: 28px;
+  font-weight: 500;
+  display: inline-block;
+  word-spacing: 10px;
+  position: relative;
+  left: 200px;
+  top: 150px;
+  text-align: center;
+}
+.section-1>h1{
+  font-size: 50px;
+  font-weight: 700;
+  width: 400px;
+  height: 130px;
+  text-align: center;
+  position: relative;
+  left: 100px;
+  top: 120px;
+}
+.blue{
+  color: #059FFF;
+}
+.card1,.card2,.card3,.card4,.card5{
+  width: 540px;
+  height: 560px;
+  box-shadow: -4px -4px 12px rgba(0, 0, 0, 0.25), 4px 4px 12px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: relative;
+  left: 120px;
+  bottom: 200px;
+}
+.card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover{
+  box-shadow: -1px -1px 8px #059FFF, 1px 1px 8px #059FFF;
+}

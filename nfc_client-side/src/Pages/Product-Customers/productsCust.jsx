@@ -57,8 +57,6 @@ function ProductsCust() {
     btnProdCss=inactiveBtncss;
     prodcustdata=custData;
   }
-
-
   return (
     <>
     <Navbar />

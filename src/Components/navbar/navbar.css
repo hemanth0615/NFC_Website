@@ -1,0 +1,47 @@
+.logo {
+  position: absolute;
+left: 5.56%;
+right: 90.42%;
+top: 0.13%;
+bottom: 98.61%;
+}
+.nav_elements {
+  display: flex;
+  list-style-type: none;
+}
+.nav_aboutus {
+  position: absolute;
+  width: 80px;
+  height: 24px;
+  left: 841px;
+  top: 42px;
+}
+.nav_services {
+  position: absolute;
+  width: 74px;
+  height: 24px;
+  left: 964px;
+  top: 42px;
+}
+.nav_work {
+  position: absolute;
+  width: 45px;
+  height: 24px;
+  left: 1081px;
+  top: 42px;
+}
+.nav_careers {
+  position: absolute;
+  width: 72px;
+  height: 24px;
+  left: 1169px;
+  top: 42px;
+}
+
+.nav_contactus {
+  position: absolute;
+  width: 98px;
+  height: 24px;
+  left: 1284px;
+  top: 42px;
+}
