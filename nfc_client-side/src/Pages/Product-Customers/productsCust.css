@@ -248,7 +248,7 @@ button:hover{
 
 .skewed-img-div{
     position: relative;
-    margin-top: 22vh;
+    /* margin-top: 22vh; */
     overflow: hidden;
 }
 
