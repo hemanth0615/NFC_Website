@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../About Us/aboutus.css";
 import logo from "../../Images/image 4.png"
 import meeting from "../../Images/Rectangle 255.png";
@@ -16,23 +15,18 @@ import hands from "../../Images/Rectangle 194.png";
 import idea from "../../Images/idea.png";
 import user from "../../Images/user.png";
 import technical from "../../Images/technical-support.png";
+import Navbar from '../../Components/navbar/navbar';
+
+
 // import 'animate.css'
+
 
 function Aboutus(){
     return(
         <div>
-            <div class="navbar">
-                <div>
-                    <img className="navbar-logo" src={logo}  alt="" />
-                </div>
-                <div className="nav-menu">
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> About</Link> </p>
-                    <p className='nav-item'><Link to="/services" className='nav-links'> Services</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Work</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Careers</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Let's talk</Link> </p>
-                </div>
-            </div>
+            
+            <Navbar />
+
             <div className="A-section1">
                 <h1>About Us</h1>
                 <img src={meeting} alt=""  />

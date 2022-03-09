@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../Services/services.css";
 import logo from "../../Images/image 4.png";
 import image1 from "../../Images/Rectangle 14.png";
@@ -13,21 +12,12 @@ import callimg from "../../Images/call.png";
 
 import ServicesCard  from "./servicesCard";
 
+import Navbar from '../../Components/navbar/navbar';
+
 function Services(){
     return(
         <div>
-            <div class="navbar">
-                <div>
-                    <img className="navbar-logo1" src={logo} alt="" />
-                </div>
-                <div className="nav-menu1">
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> About Us</Link> </p>
-                    <p className='nav-item'><Link to="/services" className='nav-links'> Services</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Work</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Careers</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Contact Us</Link> </p>
-                </div>
-            </div>
+            <Navbar />
             <div className="section-1">
                 <span>Our</span><span className="blue">Services</span>
                 <h1>Always there for our customers</h1>

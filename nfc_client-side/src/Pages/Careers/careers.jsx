@@ -1,24 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import "../Careers/careers.css";
-import logo from "../../Images/image 4.png";
 import holding from "../../Images/holding.png";
 import logo1 from "../../Images/image 4.png";
+import Navbar from '../../Components/navbar/navbar';
+
 function Careers(){
     return(
         <div>
-            <div class="navbar">
-                <div>
-                    <img className="navbar-logo" src={logo}  alt="" />
-                </div>
-                <div className="nav-menu">
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> About </Link> </p>
-                    <p className='nav-item'><Link to="/services" className='nav-links'> Services</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Work</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Careers</Link> </p>
-                    <p className='nav-item'><Link to="/aboutus" className='nav-links'> Let's talk</Link> </p>
-                </div>
-            </div>
+            <Navbar />
             <div className="C-section1">
                 <span className="C-heading">Careers</span> <br />
                 <div className="C-Para">
