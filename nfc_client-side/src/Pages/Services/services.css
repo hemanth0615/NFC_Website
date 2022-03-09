@@ -61,3 +61,11 @@
 .card1:hover,.card2:hover,.card3:hover,.card4:hover,.card5:hover{
   box-shadow: -1px -1px 8px #059FFF, 1px 1px 8px #059FFF;
 }
+.card1>img,.card2>img,.card3>img,.card4>img,.card5>img{
+  position: relative;
+  top: 40px;
+  left: 85px;
+}
+.card2{
+  position: relative;
+}
