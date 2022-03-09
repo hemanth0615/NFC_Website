@@ -61,10 +61,7 @@
     top: 780px;
     left: 60px;
 }
-.C-section3{
-    position: absolute;
-    top: 1100px;
-}
+
 .roles{
     font-weight: 700;
     font-size: 26px;
@@ -136,13 +133,17 @@ hr{
 }
 .C-section3{
     position: relative;
+    top: 1300px;
 }
 .social{
     position: absolute;
-    left: 100px;  
+    left: 100px;
+    top: 50px;  
 }
-.social-h{
+.social-h1{
     position: absolute;
+    bottom: 195px;
+    font-size: 18px;
 }   
 .social>p{
     font-size: 18px;
