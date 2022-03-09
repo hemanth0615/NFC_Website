@@ -42,7 +42,7 @@ function Careers(){
                     <hr/><br /><br /> 
                     <span>Product Designer</span><br /> <br /><br />
                     <hr/><br /><br />
-                    <span>Blockchain Designer</span><br /> <br /><br />
+                    <span>Blockchain Developer</span><br /> <br /><br />
                     <hr/><br /> <br />
                     <button className="view">View more</button>
                 </div>
@@ -55,7 +55,7 @@ function Careers(){
             </div>
             <div className="C-section3">
                 <div className="social">
-                <h1 className="social-h">social</h1><br />
+                    <h1 className="social-h1">social</h1><br />
                     <p>linkedin</p>
                     <p>Facebook</p>
                     <p>Instagram</p>
